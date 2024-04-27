@@ -1,9 +1,11 @@
-import Image from "next/image";
+
+import Navbar from "./(root)/navbar/navbar";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-       <div>salom bmi</div>
-    </main>
+       <div>
+          <Navbar/>
+          <div className="text-sky-">salom bmi</div>
+       </div>
   );
 }
